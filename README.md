@@ -34,4 +34,4 @@ This project uses gradle to ensure dependency resolution. Here there is a list o
 ```
 
 ### Author ###
-Alejandro Daniel José Gómez Flórez
+Alejandro Daniel José Gómez Flórez (@aldajo92)

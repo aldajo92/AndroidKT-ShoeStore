@@ -55,6 +55,7 @@ ext {
     junit = '4.13.2'
     androidJunit = '1.1.2'
     expressonCore = '3.3.0'
+    legacy_support_v4 = '1.0.0'
 }
 
 dependencies {
@@ -73,7 +74,7 @@ dependencies {
 
     implementation "com.google.android.material:material:$material"
     implementation "com.jakewharton.timber:timber:$timber"
-    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation "androidx.legacy:legacy-support-v4:$legacy_support_v4"
 
     implementation "com.google.code.gson:gson:$gson"
 
