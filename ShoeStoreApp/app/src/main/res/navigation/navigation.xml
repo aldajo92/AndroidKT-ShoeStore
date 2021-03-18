@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/splashFragment">
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.udacity.shoestore.fragments.splash.SplashFragment"
+        android:label="SplashFragment"
+        app:defaultNavHost="true"
+        app:navGraph="@navigation/navigation"
+        tools:layout="@layout/fragment_splash">
+        <action
+            android:id="@+id/action_splashFragment_to_loginFragment"
+            app:destination="@id/loginFragment"
+            app:popUpTo="@id/splashFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_splashFragment_to_dashboardFragment"
+            app:destination="@id/dashboardFragment"
+            app:popUpTo="@id/splashFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.udacity.shoestore.fragments.login.LoginFragment"
+        android:label="@string/login.title"
+        tools:layout="@layout/fragment_login">
+        <action
+            android:id="@+id/action_loginFragment_to_welcomeFragment"
+            app:destination="@id/welcomeFragment"
+            app:popUpTo="@id/loginFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_loginFragment_to_registerFragment"
+            app:destination="@id/registerFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.udacity.shoestore.fragments.login.RegisterFragment"
+        android:label="@string/register.title"
+        tools:layout="@layout/fragment_register" />
+
+    <fragment
+        android:id="@+id/welcomeFragment"
+        android:name="com.udacity.shoestore.fragments.welcome.WelcomeFragment"
+        android:label="@string/welcome.title"
+        tools:layout="@layout/fragment_welcome">
+        <action
+            android:id="@+id/action_welcomeFragment_to_instructionFragment"
+            app:destination="@id/instructionFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/instructionFragment"
+        android:name="com.udacity.shoestore.fragments.instruction.InstructionFragment"
+        android:label="@string/instruction.title"
+        tools:layout="@layout/fragment_instruction">
+        <action
+            android:id="@+id/action_instructionFragment_to_homeFragment"
+            app:destination="@id/dashboardFragment"
+            app:popUpTo="@id/welcomeFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.udacity.shoestore.fragments.dashboard.DashboardFragment"
+        android:label="@string/dashboard.title"
+        tools:layout="@layout/fragment_dashboard">
+        <action
+            android:id="@+id/action_dashboardFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_loginFragment"
+            app:destination="@id/loginFragment"
+            app:popUpTo="@id/dashboardFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.udacity.shoestore.fragments.detail.DetailFragment"
+        android:label="@string/detail.title"
+        tools:layout="@layout/fragment_detail" />
+
+</navigation>

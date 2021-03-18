@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">ShoeStore</string>
+
+    <!--Login Screen-->
+    <string name="login.title">Welcome</string>
+    <string name="login.submit">Log in</string>
+    <string name="login.user">Email</string>
+    <string name="login.password">Password</string>
+    <string name="login.register">Not register yet? Sign Up.</string>
+    <string name="login.logout">Logout</string>
+
+    <!--Register Screen-->
+    <string name="register.title">New User</string>
+    <string name="register.submit">Create</string>
+    <string name="register.user">Add email</string>
+    <string name="register.password">Add password</string>
+
+    <!--Welcome Screen-->
+    <string name="welcome.title">Welcome</string>
+    <string name="welcome.detail">Welcome tho this amazing shoe app.
+        You can add all brands of shoes and find them using our simple user interface.</string>
+    <string name="welcome.enter">Click on Next button to see the app instructions.</string>
+    <string name="welcome.next">Next</string>
+
+    <!--Instruction Screen-->
+    <string name="instruction.title">Instruction</string>
+    <string name="instructions.detail">On the next screen you will see a list about all shoes entered, with their respective
+        Name, Company, Size and Description. There is an add button provided to enter a new shoe item to the list.
+        Enter the required information. Description is optional. </string>
+    <string name="instructions.enter">If you are ready, click on Next button!</string>
+    <string name="instructions.next">Next</string>
+
+    <!--Dashboard Screen-->
+    <string name="dashboard.title">Dashboard</string>
+
+    <!--Detail Screen-->
+    <string name="detail.title">Detail</string>
+    <string name="detail.name_field">Name:</string>
+    <string name="detail.company_field">Company:</string>
+    <string name="detail.size_field">Size:</string>
+    <string name="detail.description_field">Description:</string>
+    <string name="detail.save">Save</string>
+    <string name="detail.cancel">Cancel</string>
+
+</resources>
