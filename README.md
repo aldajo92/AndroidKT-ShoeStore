@@ -1,52 +1,37 @@
-# README Template
+# Shoe Store App
 
-Below is a template provided for use when building your README file for students.
-
-# Project Title
-
-Project description goes here.
+This is the first project for Udacity Android-Kotlin Nanodegree Program.
 
 ## Getting Started
 
-Instructions for how to get a copy of the project running on your local machine.
+To clone this project you can download [here](https://github.com/aldajo92/AndroidKT-ShoeStore/archive/main.zip) or clone using git command:
+```
+~/ git clone https://github.com/aldajo92/AndroidKT-ShoeStore.git
+```
+
+To open it, you must have android Studio Installed. If you don't have it yet, go to following [link](https://developer.android.com/studio)
+
 
 ### Dependencies
 
-```
-Examples here
-```
-
-### Installation
-
-Step by step explanation of how to get a dev environment running.
-
-List out the steps
+This project uses gradle to ensure dependency resolution. Here there is a list of all dependencies included in the project:
 
 ```
-Give an example here
+"androidx.appcompat:appcompat:$androidx_appcompat"
+"androidx.core:core-ktx:$androidx_coreKtx"
+"androidx.constraintlayout:constraintlayout:$androidx_constraintLayout"
+"androidx.lifecycle:lifecycle-extensions:$androidx_lifecycleExtensions"
+"androidx.fragment:fragment-ktx:$androidx_fragmentktx"
+"androidx.preference:preference-ktx:$androidx_preference"
+
+"android.arch.navigation:navigation-fragment-ktx:$android_navigation"
+"android.arch.navigation:navigation-ui-ktx:$android_navigation"
+"com.google.android.material:material:$android_material"
+
+"com.google.android.material:material:$material"
+"com.jakewharton.timber:timber:$timber"
+"androidx.legacy:legacy-support-v4:$legacy_support_v4"
 ```
 
-## Testing
-
-Explain the steps needed to run any automated tests
-
-### Break Down Tests
-
-Explain what each test does and why
-
-```
-Examples here
-```
-## Project Instructions
-
-This section should contain all the student deliverables for this project.
-
-## Built With
-
-* [Item1](www.item1.com) - Description of item
-* [Item2](www.item2.com) - Description of item
-* [Item3](www.item3.com) - Description of item
-
-Include all items used to build project.
-
-## License
+### Author ###
+Alejandro Daniel José Gómez Flórez
