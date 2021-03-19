@@ -10,6 +10,8 @@
             type="com.udacity.shoestore.viewmodels.DashboardViewModel" />
     </data>
 
+    <!--ConstraintLayout chosen due the need to add an additional alignment respect to a vertical line.
+        Also, not all elements have only a vertical distribution.-->
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"

@@ -10,6 +10,7 @@
             type="com.udacity.shoestore.viewmodels.LoginViewModel" />
     </data>
 
+    <!--LinearLayout chosen due to the simple vertical and center orientation selected for UI components in the design-->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"

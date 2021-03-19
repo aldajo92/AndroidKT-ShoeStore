@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <!--LinearLayout chosen due to the simple vertical orientation selected for UI components in the design to match in the screen-->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
