@@ -33,5 +33,9 @@ This project uses gradle to ensure dependency resolution. Here there is a list o
 "androidx.legacy:legacy-support-v4:$legacy_support_v4"
 ```
 
+## References:
+- https://riggaroo.dev/constraintlayout-guidelines-barriers-chains-groups/
+- 
+
 ### Author ###
 Alejandro Daniel José Gómez Flórez (@aldajo92)
